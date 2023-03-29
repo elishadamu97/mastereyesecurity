@@ -1,0 +1,303 @@
+---
+title: Home
+layout: default
+background: '/img/bg-index.jpg'
+---
+
+<!-- Home Intro
+================================================== -->
+{% if page.url == "/" %} 
+<div class="rounded mb-5 hero">
+  <marquee class="intro-begin" style="color:#0072b1 ;" behavior="scroll" direction="left" scrollamount="8"><h1><b>PREMIUM SECURITY SOLUTIONS AT AFFORDABLE RATES---To reach us please click on the "Contact" on the navigation tab or call this number: 07049308993.
+  </b></h1></marquee>
+  <div class="row align-items-center justify-content-between">
+    <div class="col-md-6">
+      <h1 class="font-weight-bold mb-4 serif-font">Master Eye security is a private liability Company</h1>
+      <p class="lead mb-4"> Our Premium services are tailored to suite broad spectrum of Clients.</p>
+      <br>
+      <a href="{{site.baseurl}}/contact" class="btn btn-dark text-white px-5 btn-lg">Request Quote</a>
+    </div>
+    <div class="col-md-6 text-right pl-0 pl-lg-4">
+      <img class="intro" height="400px" src="{{site.baseurl}}/assets/images/CutPaste_2023-03-02_21-08-36-743.png" alt="Master Eyes Services">      
+    </div>
+  </div>
+</div>
+{% endif %}
+
+<center>
+ <h1> Welcome to Master Eye Security Services LTD.</h1>
+ <br>
+ <hr class="line"> 
+ <h4>Master Eye Security Services Limited is one of the best private security company in Nigeria, providing worldclass security services.
+  We are known for our unrivaled Services. Registered with Corporate Affairs Commission,  and licenced by the Nigerian Security and Civil Defence Corps, to carry out security business in any part of Nigeria.</h4>
+<br>
+</center>
+<br>
+<br>
+<!-- Featured
+================================================== -->
+<section class="row">
+  {% for post in site.posts %}
+      {% if post.featured == true %}
+          <div class="col-md-4 mb-5">
+          {% include postbox.html %}
+          </div>
+      {% endif %}
+  {% endfor %}
+  </div>
+</section>
+
+<!-- Posts List with Sidebar (except featured)
+================================================== -->
+<section class="row">
+  <div class="col-sm-8">
+    <div class="row">
+      {% for post in paginator.posts %}
+      {% unless post.featured == true %}
+      <div class="col-md-6 mb-5">
+        {% include postbox.html %}
+      </div>
+      {% endunless %}
+      {% endfor %}
+    </div>
+    <!-- Pagination -->
+    <div class="bottompagination">
+      <span class="navigation" role="navigation">
+          {% include pagination.html %}
+      </span>
+    </div>
+  </div>
+  <div class="col-sm-4">
+    {% include sidebar.html %}
+  </div>
+  <div class="title-head">
+    <h3 class="texture">GALLERY</h3>
+  </div>  
+  <br> 
+  <br>
+    <div class="sample">
+        <div class="box">
+            <a href="{{site.baseurl}}/pages/gen-oshinowo" target="_parent">
+                <div class="imgBox">
+                    <img src="{{site.baseurl}}/assets/images/gen-oshinowo.jpg" alt="Major General Oshinowo O. Olayinka">
+                </div>
+            <div class="details">
+                <h3>Major Gen. O. O. Oshinowo(Rtd)<br><span style="font-size: 15px;">GSS, psc, rcds, MA, M.Sc, FCAI, FIIPS</span> (Chairman)</h3>
+            </div></a>
+        </div>
+        <div class="box">
+          <a href="{{site.baseurl}}/pages/major-kehinde" target="_blank">
+              <div class="imgBox">
+                  <img src="{{site.baseurl}}/assets/images/fotor_2023-2-23_20_13_57.png" alt="Major JG. Kehinde(Rtd)">
+              </div>
+          <div class="details">
+              <h3>Major JG. Kehinde(Rtd) <br> <span style="font-size: 15px;">FSS,CM,GOM,GJM,HND,PGDM,MCIPSMN</span><br>(Executive Officer)</h3>
+          </div></a>
+      </div>
+        <div class="box">
+            <a href="{{site.baseurl}}/pages/mr-john-inalegwu"><div class="imgBox" target="_blank">
+                <img src="{{site.baseurl}}/assets/images/IMG-20230225-WA0003.jpg" alt="Mr Inalegwu John Ocheochi">
+            </div>
+            <div class="details">
+                <h3>Mr Inalegwu John Ocheochi <br><span style="font-size: 15px;">IIPS, B.Sc, PGDE, M.Sc</span><br>(Managing Director)</h3>
+            </div></a>
+        </div>
+        <div class="box">
+            <a href="{{site.baseurl}}/pages/mrs-inalegwu-gift" target="_blank">
+                <div class="imgBox">
+                    <img src="{{site.baseurl}}/assets/images/IMG-20230221-WA0023.jpg" alt="Mrs Inalegwu Gift ">
+                </div>
+            <div class="details">
+                <h3>Mrs Inalegwu Gift <br> <span style="font-size: 15px;">B.Ed</span><br> (Director - Admin)</h3>
+            </div></a>
+        </div>
+        <div class="box">
+          <a href="{{site.baseurl}}/pages/prof-shikyil" target="_blank"><div class="imgBox">
+              <img src="{{site.baseurl}}/assets/images/fotor_2023-2-23_20_12_6.png" alt="Prof. S. Shikyii(SAN)">
+          </div>
+          <div class="details">
+              <h3>Prof. S. Shikyil <br> <span style="font-size: 15px;">LLB, NLS, LLM, PhD, (SAN) <br></span> (Director - Legal)</h3>
+          </div></a>
+      </div>
+        <div class="box">
+            <a href="{{site.baseurl}}/pages/prof-gulleng" target="_blank"><div class="imgBox">
+                <img src="{{site.baseurl}}/assets/images/fotor_2023-2-23_20_16_10.png" alt=" Dr. D.Y. Gulleng">
+            </div>
+            <div class="details">
+                <h3> Prof. D.Y. Gulleng <br> <span style="font-size: 15px;">B.Sc, M.Sc, PhD</span><br>(Director - Training)</h3>
+            </div></a>
+        </div>
+        <div class="buttom-authors">
+          <div class="box">
+            <a href="{{site.baseurl}}/pages/mr-adiyino"><div class="imgBox">
+                <img src="{{site.baseurl}}/assets/images/fotor_2023-2-23_20_23_11.png" alt="A. G. Adiyino Esq.">
+            </div>
+            <div class="details">
+                <h3>A. G. Adiyino Esq. <br> <span style="font-size: 15px;">Esq. LLB. LLM</span><br>(Legal Advisers)</h3>
+            </div></a>
+          </div>
+          
+            <div class="box">
+                <a href="{{site.baseurl}}/pages/mr-kenneth-yenson"><div class="imgBox">
+                    <img src="{{site.baseurl}}/assets/images/IMG-20230221-WA0003.jpg" alt="Kenneth Yenson">
+                </div>
+                <div class="details">
+                    <h3>Kenneth Yenson <br><span style="font-size: 15px;">ND, BA</span><br>(Operation Manager)</h3>
+                </div></a>
+          </div>
+            
+        </div>
+    </div>
+</section>
+<marquee class="intro-end" style="color:#0072b1 ;" behavior="scroll" direction="left" scrollamount="8"><h1><b>The team will
+  be meeting with the Garrison Commander.
+</b></h1></marquee>
+<center>
+  <h1 id="offer">What we Offer</h1>
+  <br>
+ <hr class="line">
+</center>
+<div class="offer">
+  <div class="objective">
+    <h2><b>Our Training Objectives</b></h2>
+    <br>
+<h4>To maintain a locus classicus in Physical security and technological solutions designed to meet our clients' needs.
+  </h4>
+      <div id="progress">
+        <h4>Manned Guards</h4>
+        <div class="progress">
+          <div class="progress-bar progress-bar-striped bg-success progress-bar-animated" role="progressbar" style="width: 98%" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100">98%</div>
+        </div>
+        
+        <h4>Security Drivers</h4>
+        <div class="progress">
+          <div class="progress-bar progress-bar-striped bg-success progress-bar-animated" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
+        </div>
+        
+        <h4>Journey Management</h4>
+        <div class="progress">
+          <div class="progress-bar progress-bar-striped bg-success progress-bar-animated" role="progressbar" style="width: 92%" aria-valuenow="92" aria-valuemin="0" aria-valuemax="100">92%</div>
+        </div>
+        
+        <h4>Canine Services</h4>
+        <div class="progress">
+          <div class="progress-bar progress-bar-striped bg-success progress-bar-animated" role="progressbar" style="width: 88%" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100">88%</div>
+        </div>
+        
+        <h4>CCTV Sales and Installations</h4>
+        <div class="progress">
+          <div class="progress-bar progress-bar-striped bg-success progress-bar-animated" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">85%</div>
+        </div>
+      </div>
+  </div>
+
+
+  <div class="choose-us">
+    <h2><b>Why Choose Us</b></h2>
+    <br>
+    <h4>MESSL is a 100% Nigeria owned Company with the vision of achieving service distinction
+
+      through professional security services delivery and Consultancy, general recruiter Services, sales
+      
+      and installation of security gadgets and human resource consultancy.
+      </h4>
+     
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h3 class="accordion-header" id="headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                <strong> <span style="color: rgb(74, 233, 127);" >01.</span> Our Vision</strong>
+              </button>
+            </h3>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <h4>
+                  To be a world class private security company renowned for superior quality
+                 security services.       
+                </h4>       
+               </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h3 class="accordion-header" id="headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                <strong> <span style="color: rgb(74, 233, 127);" >02.</span> Our Core Values</strong>
+              </button>
+            </h3>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+               <h4>
+                <strong> People:</strong> We cherish hardworking, honest and result oriented individuals.
+                <br>
+                <strong>Service:</strong> World class service and team spirit.
+                <br>
+                <strong>Relationship:</strong> We nurture all our relationships to be long lasting.
+                <br>
+                <strong>Strength:</strong> Our strength lies with our work force and management team.
+                <br>
+                <strong>Environment:</strong> Save and secure environment where legitimate human endeavors thrive.
+               </h4>              
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h3 class="accordion-header" id="headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+               <strong> <span style="color: rgb(74, 233, 127);" >03.</span> Our Mission</strong>
+              </button>
+            </h3>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+               <h4>
+                To render quality security services to the citizenry in the most effective and 
+                efficient manner achieved through good corporate governance and adherence to 
+                 sound ethical standards with the ultimate aim of ensuring that all stakeholders 
+                  are happy partners in progress.
+               </h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+  </div>
+  <br>
+</div>
+
+<br><br><br>
+
+  <div class="services">
+    <h2><strong>Clients that Uses Our Services</strong></h2>
+    <br>
+    <span style="font-size: 20px; font-weight: bold;">Clients in Abuja.</span>
+    <h4>
+      <ul>
+        <li>Kado Estate FCT Abuja.</li>
+        <li>Best Price Golden Venture Estate FCT Abuja.</li>
+        <li> DeDen Abuja.</li>
+        <li> God's own plaza Abuja.</li>
+        <li>Strength Filed Pharmacy, Abuja. </li>
+        <li>Citec Estate FCT Abuja. </li>
+        <li>Gonny Pharmacy Ltd Abuja.</li>
+        <li>Fruitful Orchard School, Abuja.</li>
+        <li>AVM Gregory RTD Resident Abuja.</li>
+        <li>Dei Dei international building materials Abuja. </li>
+        <li>God has done Estate FCT Abuja.</li>
+        <li>Xtoget Luxury Light Abuja.</li>
+      </ul>
+    </h4>
+    <br>
+    <span style="font-size: 20px; font-weight: bold;"> Clients in Jos.</span>
+    <h4>
+      <ul>
+        <li>Graceland international school, Jos.</li>
+        <li>College De Mazenod, Jos.</li>
+        <li>Open heaven international Ministry, Jos.</li>
+      </ul>
+    </h4>
+    <br>
+    
+  </div>
+<br>
+<strong><h1 class="location-text" >  Location: Abuja </h1></strong>
+<br>
+<iframe class="iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47368.62672318975!2d7.441158208538373!3d9.014006744440604!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104e0d8a643a9963%3A0x2609cc74317de87d!2sCadastral%20Zone%20B02%2C%20Durumi!5e1!3m2!1sen!2sng!4v1678327498250!5m2!1sen!2sng" width="1105" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
