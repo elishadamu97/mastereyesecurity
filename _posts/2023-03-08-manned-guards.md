@@ -3,7 +3,7 @@ layout: post
 title:  "Manned Guards"
 author: sal
 categories: [ Security ]
-image: assets/images/Security Guard on Walkie Talkie.jpg
+image: assets/images/IMG-20230330-WA0008.jpg
 ---
 A human presence on your vacant property, construction site or business premises is an ideal way to deter any would-be intruders and de-escalate situations. Manned guarding is crucial for a number of reasons. This post will explore some of the facts about manned guarding.
 
