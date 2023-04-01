@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  "Event in the 3 Divisional Hq, Jos Nigeria"
+title:  "Event in the 3rd Divisional Hq, Jos Nigeria"
 author: sal
 categories: [ ongoing-events ]
 image: assets/images/IMG-20230330-WA0001.jpg
