@@ -7,8 +7,8 @@ image: assets/images/IMG-20230404-WA0004.jpg
 comments: true
 ---
 #### FAMILY
-He was born on the 20th June, 1985 to the family of Late Prof. Mark Mangchut Lere (of 
-Rampiya Village, Mangu LGA) and Prof. Mrs Pauline Mark Lere of Kinat Village, Mangu
+He was born on the 20th June, 1985 to the family of **Late Prof. Mark Mangchut Lere** (of 
+Rampiya Village, Mangu LGA) and **Prof. Mrs Pauline Mark Lere** of Kinat Village, Mangu
 LGA - both of them from the Tuluwurang Royal Family of Mangu District of the Mwaghavul 
 nation in Mangu LGA, Plateau State.
 
@@ -23,14 +23,14 @@ Best Student); - University of Jos (PhD in Law - Doctor of Philosophy in Law) in
 COCIN Extension Theological College (Diploma, TEE) 2020.
 
 #### YOUTH SERVICE (NYSC)
-Barr. Lere served in Imo State, 2010/2011 Batch A where he served as General Secretary 
+**Barr. Lere** served in Imo State, 2010/2011 Batch A where he served as General Secretary 
 of the Nigerian Christian Corpers’ Fellowship (NCCF) and executed projects in over 40 
 schools, Orphanages, conducting Free Tutorials for students in Higher Institutions in Imo 
 State during his NYSC days and throughout his undergraduate days (conducting the most 
 tutorials in Unijos), culminating in publishing three (3) books.
 
 #### PROFESSION
-Barr. Lere is currently a Lecturer in the Faculty of Law, University of Jos. He is a member 
+**Barr. Lere** is currently a **Lecturer** in the **Faculty of Law, University of Jos**. He is a member 
 of several professional bodies including the Nigeria Association of Law Teachers (NALT); 
 the Nigerian Bar Association (NBA); the Christian Lawyers Fellowship of Nigeria (CLASFON)
 and has obtained Level 1 certificate with the Nigerian Institute of Safety Professionals 
@@ -41,7 +41,7 @@ and author of three books and numerous published and professional articles in le
 journals, Conference Proceedings and Chapter in Books.
 
 #### LEADERSHIP EXPERIENCES
-Barr. Lere has held the following positions in the past: Chairman, Constitution Drafting 
+**Barr. Lere** has held the following positions in the past: Chairman, Constitution Drafting 
 Committee, Millennium Development Goals CDS, Imo Sate (NYSC); National Secretary, 
 Constitution Amendment Committee, Nigerian Christian Corpers Fellowship (NCCF); 
 Secretary, Bar and Bench Forum, Nigerian Bar Association (NBA Jos Branch); Prayer 
@@ -56,7 +56,7 @@ of Nigeria (CLASFON) Plateau State; Member and Principal Officer (elected Deputy
 Majority Leader) in the Nigerian Youth Parliament (NYP) representing Plateau Central 
 Senatorial District at the Fourth Session of the Parliament among many others;
 
-Barr. Lere currently is: the Coordinator, Carnegie Law Lab, Faculty of Law, University of 
+**Barr. Lere** currently is: the Coordinator, Carnegie Law Lab, Faculty of Law, University of 
 Jos, Legal Adviser Criminology and Security Studies Students’ Association, University of 
 Jos, Legal Adviser National Association of Plateau State Students (NAPSS), University of 
 Jos; Staff Adviser, Law Students’ Society (LSS) Faculty of Law, University of Jos; Staff 
@@ -86,7 +86,7 @@ Research Methology, Law of Evidence (his Masters and PhD works are in Human Righ
 and Terrorism).
 
 #### LEGISLATIVE EXPERIENCES
-As a Consultant to the Plateau State House of Assembly and Plateau State Judiciary, he has 
+As a Consultant to the **Plateau State House of Assembly** and Plateau State Judiciary, he has 
 drafted several Bills some of which have been passed into Law; As a Member of the 
 Nigerian Youth Parliament, he was the former Caucus Chairman, North Central Nigeria 
 before being elected as a Principal Officer of the Parliament; he has also worked as 
@@ -119,11 +119,11 @@ and an outstanding Youth Leader with great commitment and zest, Barr. Lere is a 
 of numerous certificates, meritorious awards and awards of excellence for outstanding 
 performances and contributions to the academia, legal profession and the society at large 
 notably among these awards is the recent and conferment with the prestigious award
-of **GOBAL PEACE AMBASSADOR** by the World Organization of Ambassadors on the 29th 
+of **GLOBAL PEACE AMBASSADOR** by the World Organization of Ambassadors on the 29th 
 day of July, 2021 at the Nigerian National Merit Award House, Maitama Abuja, Nigeria; 
 notwithstanding all these engagements, Barr. Lere is a mentor per excellence, committed 
 to raising vibrant, effectual and well equipped generations after him.
 
 #### FAMILY
-Barr. Lere is happily married to one female wife, Barr. Mrs. Mildred Panmak Lere and 
-their marriage is so far blessed with Three Children
+**Barr. Lere** is happily married to one female wife, **Barr. Mrs. Mildred Panmak Lere** and 
+their marriage is so far blessed with Three Children.
