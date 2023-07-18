@@ -4076,7 +4076,9 @@ tbody.collapse.show {
     }
 
     .navbar-expand-lg .navbar-nav {
-        flex-direction: row
+        flex-direction: row;
+        width: 988px;
+        margin-left: 250px;
     }
 
     .navbar-expand-lg .navbar-nav .dropdown-menu {

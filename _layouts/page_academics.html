@@ -1,0 +1,37 @@
+---
+layout: default
+disqus: false
+archive: false
+post_class: post-template
+
+---
+<!-- Post Featured Image -->
+{% if page.image %}
+<div class="text-center mx-auto mb-5">
+  <img class="featured-image page-pictures text-center mx-auto rounded" src="{{ site.baseurl }}/{{ page.image }}" alt="{{ page.title }}">
+</div>
+{% endif %}
+<!-- End Featured Image -->
+ <!-- Sidebar -->
+ <div class="col-sm-4" style="float: right;">
+  {% include sidebar_academics.html %}
+  </div>
+<div class="col-lg-8 mx-auto">
+
+  <div class="mainheading">
+    <h1 class="posttitle">{{ page.title }}</h1>
+  </div>
+
+  <div class="article-post serif-font">
+    {{content}}
+  </div>
+   
+  
+  {% if page.comments == true %}
+  <div id="comments">             
+      {% include disqus.html %} 
+  </div>
+  {% endif %}
+
+
+</div>
