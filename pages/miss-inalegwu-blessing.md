@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  "Mr Inalegwu John Ocheochi (Managing Director)"
+title:  "Miss Inalegwu Blessing (Managing Director)"
 author: sal
 categories: [ Biography ]
 image: assets/images/blessing.jpg

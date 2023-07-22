@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  "Mr Inalegwu John Ocheochi (Head of Operation)"
+title:  "Mr Inalegwu John Ocheochi (Head of Operations)"
 author: sal
 categories: [ Biography ]
 image: assets/images/IMG-20230225-WA00031.jpg
