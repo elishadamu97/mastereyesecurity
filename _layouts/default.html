@@ -61,6 +61,9 @@ gtag('config', '{{site.ganalytics}}');
           .fab{
             font-size: 20px;
           }
+          .showNav{
+              display: none;
+          }
             @media screen and (max-width: 767px) {
             .mr-2{
               width: 30px;
@@ -73,12 +76,9 @@ gtag('config', '{{site.ganalytics}}');
               position: relative;
             }
             .showNav{
-              visibility: visible !important;
+              display: block;
           }
-            }
-            .showNav{
-              visibility: hidden;
-          }
+        }
           </style>
 </head>   
     
@@ -113,16 +113,7 @@ gtag('config', '{{site.ganalytics}}');
                 
               </li>
               {% endfor %}
-              <div class="dropdown">
-                <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Our Profile
-                </button>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="{{site.baseurl}}/about/">About Us</a></li>
-                  <li><a class="dropdown-item" href="{{site.baseurl}}/services/">Services</a></li>
-                </ul>
-              </div>
-              -
+              
               <div class="dropdown">
                 <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                  Academics
@@ -133,8 +124,16 @@ gtag('config', '{{site.ganalytics}}');
                   
                 </ul>
               </div>
-            
-
+              -
+              <div class="dropdown">
+                <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Our Profile
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="{{site.baseurl}}/about/">About Us</a></li>
+                  <li><a class="dropdown-item" href="{{site.baseurl}}/services/">Services</a></li>
+                </ul>
+              </div>
               -
               <div class="dropdown">
                 <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
