@@ -79,6 +79,9 @@ gtag('config', '{{site.ganalytics}}');
             .showNav{
               display: block;
           }
+          .sidebar-section{
+            display: none;
+          }
         }
           </style>
 </head>   
@@ -115,17 +118,7 @@ gtag('config', '{{site.ganalytics}}');
               </li>
               {% endfor %}
               
-              <div class="dropdown">
-                <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                 Academics
-                </button>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="https://www.iippsa.com.ng/">Professional Diploma</a></li>
-                  <li><a class="dropdown-item" href="https://www.iipps.com.ng/">Advanced Professional Diploma</a></li>
-                  
-                </ul>
-              </div>
-              -
+              
               <div class="dropdown">
                 <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Our Profile
@@ -167,9 +160,9 @@ gtag('config', '{{site.ganalytics}}');
                 <ul class="dropdown-menu" style="font-size: 12px;">
                   <li><a class="dropdown-item" href="{{site.baseurl}}/about/">About Us</a></li>
                   <li><a class="dropdown-item" href="{{site.baseurl}}/services/">Services</a></li>
-                  <li style="margin-left: 20px;"><b>Academics</b></li>
+                  <!-- <li style="margin-left: 20px;"><b>Academics</b></li>
                   <li><a class="dropdown-item" href="https://www.iipps.com.ng/">Professional Diploma</a></li>
-                  <li><a class="dropdown-item" href="https://www.iipps.com.ng/">Advanced Professional Diploma</a></li>
+                  <li><a class="dropdown-item" href="https://www.iipps.com.ng/">Advanced Professional Diploma</a></li> -->
                   
                 </ul>
               </div>
@@ -213,6 +206,9 @@ gtag('config', '{{site.ganalytics}}');
 /* footer section */
 .footer1{
 background-color: black;
+margin-left: -100px;
+margin-right: -100px;
+margin-bottom: -50px;
 }
 .col{
 color: #ffffff;
@@ -229,7 +225,7 @@ margin-left: 200px;
 }
 .copy{
 padding-bottom: 20px;
-color: #d1d1d1;
+color: #ffffff;
 text-align: center;
 }
 .fa-facebook, .fa-linkedin, .fa-whatsapp{
@@ -296,6 +292,13 @@ text-align: center;
         </div>
         <style>
           @media (max-width: 480px) {
+            .footer1{
+              background-color: black;
+          margin-left: -50px;
+          margin-right: -50px;
+          margin-bottom: -50px;
+          }
+            
           .social{
             display: flex;
             justify-content: space-evenly !important;
@@ -307,7 +310,7 @@ text-align: center;
                 column-gap: 20px;
                 justify-content: space-between;
                 width: 200px;
-               margin-left:460px !important;
+               margin-left:552px !important;
             }
             }
            
@@ -329,7 +332,7 @@ text-align: center;
     </li>
     {% endfor %}
     </ul>
-    <div class="copyright small">
+    <div class="copyright small" style="color: white;">
        Copyright © {{site.title}}. All rights reserved.
     </div>
     <br>

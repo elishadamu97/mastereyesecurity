@@ -40,11 +40,11 @@
     box-sizing: border-box
 }
 .texture{
-    color: darkorange;
-    font-size: 40px !important;
+    color: black;
+    font-size: 30px !important;
 }
 .line{
-    border-top: 5px solid #155757;
+    border-top: 5px solid #337ab7;
     margin: 0px 500px 30px 500px;
 }
 .fixedButton{
@@ -72,7 +72,7 @@
     min-height: 500px;
     display: flex;
     margin: 0px 0px 0px 35px;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     border: grey;
     background-color: #ffffff;
@@ -80,10 +80,10 @@
 }
 .sample .box{
     position: relative;
-    width: 320px;
-    height: 320px;
+    width: 500px;
+    height: auto;
     background: #fff;
-    margin: 20px;
+    margin-bottom: 50px;
     box-sizing: border-box;
     display: inline-block;
     box-shadow: 2px 2px 15px 3px rgb(206, 222, 226);
@@ -127,9 +127,10 @@ h3{
     margin-left: 100px;
 }
 .location-text{
-    width: 25px;
-    color: orange;
+    width: 40px;
+    color: #337ab7;
     font-weight: bold;
+    font-size: 30px;
 }
 
 @media screen and (max-width: 480px) {
@@ -240,7 +241,7 @@ h3{
     }
     .location-text{
         width: 25px;
-        color: orange;
+        color: #337ab7;
         font-weight: bolder;
     }
    .iframe{
@@ -9217,10 +9218,11 @@ ul.tags li a:hover {
 
 .sidebar #mc_embed_signup .button {
     width: 100% !important;
-    background: #3d61fd !important;
+    background: #337ab7 !important;
     height: auto;
     padding: 6px 20px;
-    font-weight: 600
+    font-weight: 600;
+    color: white;
 }
 
 .sidebar #mc_embed_signup h2 {
@@ -9264,8 +9266,8 @@ img {
 }
 
 .bottompagination span.navigation a {
-    background: #fdd93d;
-    color: #333;
+    background: #337ab7;
+    color: #fff;
     padding: 5px;
     border-radius: 3px;
     text-transform: none;
